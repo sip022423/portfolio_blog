@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Icon -->
+    <link rel="icon" href="assets/logo.png" />
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Joseph James | Portfolio</title>
+  </head>
+  <body>
+      
+      <div class="logo">
+        <a href="#">JOSEPH</a>
+      </div>
+
+      <header>
+      <nav>
+        <a href="#main-container">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skill</a>
+        <a href="#blog">Blog</a>
+        <a href="#education">Education</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="extra-nav">
+        <a href="#contact">
+        <button>Get In Touch</button>
+      </a>
+      </div>
+
+        <!-- Hamburger Menu -->
+        <div id="menu" class="hamburger-menu">
+          <svg
+            width="35px"
+            height="35px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 18L20 18"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M4 12L20 12"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M4 6L20 6"
+              stroke="#ffffff"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+        
+        <div id="nav-mobile" class="mobile-nav">
+          <div id="close-mobile" class="close">
+            <svg
+              width="35px"
+              height="35px"
+              viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <line x1="7" y1="7" x2="25" y2="25" stroke="#ffffff" stroke-width="2" />
+              <line x1="7" y1="25" x2="25" y2="7" stroke="#ffffff" stroke-width="2" />
+            </svg>
+          </div>
+          <ul>
+            <li><a class="nav-link" href="#main-container">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#skill">Skill</a></li>
+            <li><a class="nav-link" href="#blog">Blog</a></li>
+            <li><a class="nav-link" href="#education">Education</a></li>
+            <li><a class="nav-link" href="#project">Project</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section>
+      <div class="main-container" id="main-container">
+        <div class="image">
+          <img src="image/grad.PNG" alt="profile" />
+        </div>
+        <div class="content">
+          <h1 data-aos="fade-left">
+            Hey, I'm <span>Joseph</span>
+          </h1>
+          <p class="typewriter">
+            I'm a <span id="changing-text"></span>
+          </p>
+          <div class="social-links">
+            <a href="https://github.com/sip022423"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100078052962186">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/josephjames-alcedo-324797333/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/_jzyp/"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="buttons">
+            <a href="#contact"><button class="btn-primary">Hire Me</button></a>
+            <a href="Alcedo,JosephJames-resume.pdf" download><button class="btn-secondary">Download CV</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            About Me
+          </h1>
+          <div class="about-me">
+            <div data-aos="zoom-out-right" data-aos-delay="300" class="profile">
+              <div class="image-box">
+                <img src="image/profile1.jpg" alt="profile" />
+              </div>
+            </div>
+
+            <div
+              data-aos="zoom-in-left"
+              data-aos-delay="300"
+              class="description"
+            >
+                <p>
+                  As a fresh graduate in Information Technology, I am looking to begin my professional journey in a growth-oriented organization where I can apply my technical knowledge, problem-solving abilities, and adaptable skill set. 
+                  With a strong passion for learning and a commitment to excellence, I am eager to take on new challenges, embrace emerging technologies, and contribute to innovative projects. 
+                  I thrive in collaborative environments and can quickly adapt to evolving tasks and systems. My ultimate goal is not only to grow and evolve as an IT professional but also to contribute meaningfully to the company’s goals and long-term success through dedication, hard work, and a strong desire to make a positive impact.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skill" class="skill">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="200" class="title">Skill</h1>
+          
+          <!-- ONE skills container -->
+          <div class="skills" data-aos="zoom-in-down" data-aos-delay="100">
+            
+            <!-- HTML -->
+            <div class="skill-box" data-percent="90">
+              <img src="image/html.png" alt="HTML" />
+              <div class="skill-percent">
+                <svg viewBox="0 0 36 36">
+                  <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <path class="progress" style="--percent: 90;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <text x="18" y="20.5" class="percentage">90%</text>
+                </svg>
+              </div>
+              <div class="skill-name">HTML</div>
+            </div>
+    
+            <!-- CSS -->
+            <div class="skill-box" data-percent="70">
+              <img src="image/css.png" alt="CSS" />
+              <div class="skill-percent">
+                <svg viewBox="0 0 36 36">
+                  <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <path class="progress" style="--percent: 70;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <text x="18" y="20.5" class="percentage">70%</text>
+                </svg>
+              </div>
+              <div class="skill-name">CSS</div>
+            </div>
+    
+            <!-- JavaScript -->
+            <div class="skill-box" data-percent="70">
+              <img src="image/js.png" alt="JavaScript" />
+              <div class="skill-percent">
+                <svg viewBox="0 0 36 36">
+                  <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <path class="progress" style="--percent: 70;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <text x="18" y="20.5" class="percentage">70%</text>
+                </svg>
+              </div>
+              <div class="skill-name">JavaScript</div>
+            </div>
+    
+            <!-- Java -->
+            <div class="skill-box" data-percent="80">
+              <img src="image/java.png" alt="Java" />
+              <div class="skill-percent">
+                <svg viewBox="0 0 36 36">
+                  <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <path class="progress" style="--percent: 80;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <text x="18" y="20.5" class="percentage">80%</text>
+                </svg>
+              </div>
+              <div class="skill-name">Java</div>
+            </div>
+    
+            <!-- C# -->
+            <div class="skill-box" data-percent="90">
+              <img src="image/c.png" alt="C#" />
+              <div class="skill-percent">
+                <svg viewBox="0 0 36 36">
+                  <path class="bg" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <path class="progress" style="--percent: 90;" d="M18 2 a 16 16 0 1 1 0 32 a 16 16 0 1 1 0 -32"/>
+                  <text x="18" y="20.5" class="percentage">90%</text>
+                </svg>
+              </div>
+              <div class="skill-name">C#</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="blog" id="blog">
+      <div class="container">
+        <h1 class="title">Blog</h1>
+        <div class="slider" style="--quantity: 4;">
+          
+          <!-- Slide 1 -->
+          <div class="item" style="--position: 1">
+            <div class="card">
+              <div class="content">
+                <div class="front">
+                  <img src="photography/hobby.jpg" alt="Hobbies" class="img" />
+                  <div class="front-content">
+                    <span class="badge">Hobby</span>
+                    <div class="description">
+                      <h3>My Hobbies</h3>
+                      <p>Know me more. By knowing my Hobbies</p>
+                    </div>
+                    <div class="card-footer">Click To See More</div>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="back-content">
+                    <h3>Hobbies</h3>
+                    <p>When the COVID-19 pandemic hit, the world suddenly slowed down. Schools were closed, streets became empty, and we all found ourselves locked inside our homes, unsure of what the future would bring. Like many others, I found the early days of quarantine incredibly boring. The silence, the stillness — it was overwhelming. But little did I know, this pause in the world would open the door to discovering new passions and shaping who I am today. <br><br>
+                      At first, I didn’t know what to do with all the free time I had. I tried many things just to keep myself occupied — from watching endless movies to scrolling through social media. But deep down, I wanted to use this time for something more meaningful. So, I began to explore different hobbies. I told myself, "Try everything until something clicks." And that’s exactly what I did.<br><br>                      
+                      One of the first hobbies I got into was photography. I didn’t have a fancy camera — just my phone — but I started capturing moments, angles, lighting, and little details I had never noticed before. I took pictures of my surroundings, my pets, and sometimes even just the sky. Photography helped me appreciate the beauty in small things. It also gave me a creative outlet to express myself visually. Eventually, I started editing the photos, experimenting with filters, shadows, contrast, and layouts. That’s when photo editing became another passion of mine.<br><br>
+                      Through editing, I discovered the power of storytelling in visuals. Whether it was a simple portrait or a landscape shot, editing gave it mood and meaning. I began to learn more about design tools like Adobe Lightroom, Photoshop, and Canva. I didn’t take formal classes — most of what I learned was self-taught through YouTube tutorials and trial and error. And honestly, that made it even more satisfying.<br><br>
+                      As I explored photography and editing, I stumbled upon coding. At first, I tried it out of curiosity, just to see what it was about. I started with simple HTML and CSS, building basic web pages. Over time, I grew more confident and began learning JavaScript, and eventually, even some programming languages like Python. Coding became not just a hobby, but a mental challenge I enjoyed solving. I loved the feeling of creating something functional from scratch — whether it was a portfolio, a mini-game, or a simple app.<br><br>
+                      The best part of this journey is the amount of skills I’ve gained. What started as boredom turned into a passion for digital creativity. Now, I can capture photos, enhance them, and even build websites to showcase them. I never imagined that being stuck at home would push me toward discovering such fulfilling hobbies.<br><br>
+                      Today, these hobbies are more than just pastimes. They are a part of who I am — tools that have helped me grow, express myself, and even prepare for the future. The pandemic may have isolated us physically, but for me, it opened a door to creativity, learning, and endless possibilities.</p>
+                    <button class="see-more-btn flip-btn">Click Again to Start Rotating</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Slide 2 -->
+          <div class="item" style="--position: 2">
+            <div class="card">
+              <div class="content">
+                <div class="front">
+                  <img src="photography/sip.JPG" alt="Me" class="img" />
+                  <div class="front-content">
+                    <span class="badge">Life</span>
+                    <div class="description">
+                      <h3>The Life of Sip</h3>
+                      <p>If you're interested to know me more. Click here.</p>
+                    </div>
+                    <div class="card-footer">Click To See More</div>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="back-content">
+                    <h3>The Life of Sip</h3>
+                    <p>empty hehee😂😂😂.</p>
+                    <button class="see-more-btn flip-btn">Click Again to Start Rotating</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Slide 3 -->
+          <div class="item" style="--position: 3">
+            <div class="card">
+              <div class="content">
+                <div class="front">
+                  <img src="image/sti_logo.png" alt="STI" class="img" />
+                  <div class="front-content">
+                    <span class="badge">STI Journey</span>
+                    <div class="description">
+                      <h3>STI Journey</h3>
+                      <p>My journey at STI Alaminos.</p>
+                    </div>                  
+                  </div>
+                    <div class="card-footer">Click To See More</div>
+                </div>
+                <div class="back">
+                  <div class="back-content">
+                    <h3>STI Journey</h3>
+                    <p>Starting college is like opening a brand-new book — blank pages waiting to be filled with memories, challenges, friendships, and lessons. My journey at STI began with excitement and hope. I still remember the day I first stepped into the campus as a freshman. Everything felt fresh and new — from the classrooms to the people, even the smell of freshly printed modules. I knew then that this would be a whole new chapter in my life, and I was ready for it.
+                      During my first year, I was filled with enthusiasm. I looked forward to learning, especially in the world of technology and coding. I had always been fascinated by computers, and finally, I had the chance to dive deeper into it. STI provided the platform I needed to explore this passion. But of course, like every journey, mine had its ups and downs. <br> <br>                    
+                      There were times I felt highly motivated — eager to code, collaborate, and create. I enjoyed those moments when everything made sense, and the lines of code turned into working programs. However, there were also moments when I doubted myself. Assignments would pile up, and deadlines seemed to appear out of nowhere. There were nights filled with frustration, when debugging seemed endless and logic just wouldn’t work. But despite those struggles, I pushed through. And each time I overcame a challenge, I grew stronger.
+                      One of the best things about being at STI wasn’t just the academics — it was the people. I got to meet classmates who shared the same dreams and interests. We helped each other out, exchanged ideas, and even struggled together. The sense of community at STI is something I will always treasure. Whether it was during school activities, group projects, or casual hangouts, I formed bonds that I know will last beyond graduation. <br><br>
+                      STI taught me more than just programming languages and IT concepts. It taught me how to communicate better, how to work as a team, and how to step out of my comfort zone. The instructors were not only knowledgeable, but also supportive. They understood that we were all different in how we learned and grew. Their guidance and encouragement played a big role in my development. <br> <br>      
+                      
+                      Looking back, I can say with a full heart that choosing STI was one of the best decisions I’ve made. It wasn’t just about getting a degree — it was about becoming a better version of myself. I learned, I failed, I succeeded, and most importantly, I matured.<br> <br>      
+                      Now, as I continue this journey, I feel proud to call myself an STI’er. It has been a wonderful ride filled with laughter, challenges, and valuable lessons. To anyone considering joining STI — be ready to learn, connect, and grow. It’s more than just a school; it’s a place that shapes your future.<br> <br>      
+                      Here’s to the journey that was and the journey ahead.</p>
+                    <button class="see-more-btn flip-btn">Click Again to Start Rotating</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Slide 4 -->
+          <div class="item" style="--position: 4">
+            <div class="card">
+              <div class="content">
+                <div class="front">
+                  <img src="photography/bagbag.jpg" alt="ENRO" class="img" />
+                  <div class="front-content">
+                    <span class="badge">OJT journey</span>
+                    <div class="description">
+                      <h3>My OJT Journey</h3>
+                      <p>Here you can read about my journey at City Environment Natural Resources Office.</p>
+                    </div>
+                    <div class="card-footer">Click To See More</div>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="back-content">
+                    <h3>My OJT Journey</h3>
+                    <p>Week 1 OJT Weekly Journal (February 3–9, 2025) <br>
+                      Our on-the-job training (OJT) officially began this week with an orientation at the Tourism Office. During the session, we introduced ourselves and discussed our individual skills and interests to help determine suitable departmental placements. I was assigned to the Environmental and Natural Resources Office (ENRO), marking the start of my hands-on learning experience.
+                      Early in the week, we received practical technical training from Sir Oliver, the head of ACT CAO. He guided us through printer maintenance, teaching us how to troubleshoot basic issues, fix ink leaks, and improve print quality. These lessons provided us with valuable skills that are essential in any office setting.
+                      By midweek, our team was tasked with documenting an internal office meeting. This responsibility enhanced our organizational and reporting skills. We also learned how to set up and operate the office’s sound system—an important role especially for live events and online conferences. Through this, we became the designated technical working group, ensuring smooth and effective communication during various activities.
+                      There was one slower day this week when most of the employees, including our supervisor, had their day off. Despite this, the overall experience was productive and filled with learning. This first week laid a strong foundation for our OJT journey, equipping us with practical skills and boosting our confidence in a real work environment.
+                      <br><br>
+                      Week 2 OJT Weekly Journal (February 10–16, 2025) <br>
+                      This week of our OJT was filled with meaningful activities that combined hands-on technical tasks, event support, and real-world exposure to environmental conservation efforts.
+                      We began the week by attending the city’s flag ceremony at the plaza. It wasn’t just a formal gathering it was a community event where we assisted the City ENRO during the awarding ceremony for their recent infographic competition. It was inspiring to see creative entries that promoted environmental awareness. Our role included helping with event logistics and organizing materials for the awardees, giving us insight into how ENRO promotes education through engaging campaigns.
+                      In the following days, our tasks became more production-focused. We printed, cut, and folded garbage bags for ENRO’s cleanliness campaign, prepared certificates for boatmen attending a seminar, and cut stubs for the "Basura Mo, Iuwi Mo" initiative. We also folded plastic bags for the same program, which encourages tourists to bring their trash back from island visits to help protect the Hundred Islands.
+                      We assisted in a boatmen's meeting by managing the sound system and documenting the event. I was tasked with capturing photos, videos, and notes, which deepened my understanding of proper documentation and effective communication in public programs.
+                      Later in the week, we helped set up a large LED monitor in preparation for a VIP visit. Observing the technical setup in a professional context gave us valuable exposure to event logistics and audiovisual systems.
+                      One of the most unique experiences this week was accompanying DENR personnel to Barangay Baleyadaan, where an owl had been caught by a resident. I was assigned to document the retrieval and rescue, which introduced me to the fieldwork side of wildlife conservation.
+                      Overall, this week was enlightening and dynamic. The variety of tasks from logistical support and documentation to environmental advocacy expanded my technical and communication skills while reinforcing the importance of collaborative efforts in ecological sustainability. These experiences have deepened my commitment to contributing meaningfully to environmental protection and responsible community engagement.
+                      <br><br>
+                      Week 3 OJT Weekly Journal (February 17–23, 2025) <br>
+                      This week offered an enriching blend of creativity, community engagement, and technical learning as we continued our OJT with the City ENRO.
+                      We started with a training session on Adobe Photoshop, where we learned the basics of editing graphics for ENRO’s social media platforms. These posts typically include environmental trivia, quotes, and public service announcements. It was our first hands-on exposure to digital communication, and it gave us a deeper understanding of how even simple visuals can contribute significantly to environmental education.
+                      We were then tasked with designing a poster using Canva for an upcoming mangrove planting activity. Though it was our first time creating official visual materials for a government event, teamwork and guidance helped us produce a clean, informative layout. This task challenged our creativity and attention to detail while highlighting the importance of visual communication in public outreach.
+                      Midweek, we shifted focus to the ARTE event, a regional celebration of local artists held at the Don Leopoldo Convention Center. We arrived as early as 6 a.m. to assist with preparations for the launch. I was assigned to document the event by capturing photos, videos, and detailed notes. Witnessing various art forms and meeting artists from Region 1 was inspiring, reinforcing the link between culture and environmental advocacy.
+                      On the final day of ARTE, we continued supporting ENRO during the closing ceremony and awarding of artists. Documenting the event allowed us to see how art can be used as a platform to promote sustainability and regional identity.
+                      Before our afternoon exam, we also participated in the “Zumbasurero” outreach and clean-up drive in Barangay Mona. The event combined community fitness with environmental action, and we once again documented the activity and assisted where needed. It was motivating to see enthusiastic participation from residents of all ages.
+                      Overall, this week offered a well-rounded perspective on ENRO’s work blending digital design, event documentation, cultural promotion, and environmental action. These experiences not
+                      only strengthened our technical and creative abilities but also emphasized the importance of public engagement and collaboration in preserving our environment. It was a productive and inspiring week that deepened our appreciation for meaningful service.
+                      <br><br>
+                      Week 4 OJT Weekly Journal (February 24–March 2, 2025) <br>
+                      To begin the week, we were tasked with preparing a Facebook post to commemorate the upcoming EDSA People Power Revolution, celebrated every February 25. We conducted background research to better understand the historical significance of the event and designed a meaningful and respectful post that captured the spirit of democracy and unity. This exercise taught us how to communicate national events in a professional tone, while also utilizing digital platforms to educate and inspire the public.
+                      On February 25, in celebration of the EDSA anniversary, we participated in a mangrove planting activity organized by the City ENRO in Barangay Polo. The experience was not only hands-on and educational, but also deeply fulfilling. Planting mangrove trees along the riverbanks helped us appreciate their environmental importance—such as preventing soil erosion, supporting biodiversity, and strengthening coastal ecosystems. I was also assigned to document the activity through photos and videos for a future video project. Capturing these efforts visually gave me insight into the power of storytelling in promoting environmental advocacy.
+                      We also joined the Alaminos City Caravan held in Barangay Mona. This monthly outreach initiative delivers essential services like medical check-ups and document processing to different communities. The City ENRO participated by promoting its “Palit Basura” program, which allows residents to exchange recyclable waste for basic goods. Our role was to document the event, which we will later compile into a promotional video. It was encouraging to witness how collaboration between LGU departments can bring real impact to the community.
+                      We wrapped up the week with a full day in the office focused on editing the materials we had gathered. We split into teams to streamline the work some worked on creating educational social media content, while my partner and I focused on editing video footage from the mangrove planting and caravan. It was mentally demanding, requiring close attention to detail, but highly satisfying to see our documentation come to life in the form of polished, informative content.
+                      Overall, this week taught us how to balance fieldwork with office tasks. We experienced the importance of environmental and civic action on the ground while learning the behind-the-scenes work of documentation and public communication. From designing social media we strengthened both our technical skills and our understanding of teamwork, public service, and the broader impact of even the smallest contributions.
+                      <br><br>
+                      Week 5 OJT Weekly Journal (March 3–9, 2025) <br>
+                      This week was a balance of creative tasks, technical skill development, and personal reflection. On March 3, I was assigned to create a new template for the "Quote of the Week" series on ENRO's official Facebook page. This task felt significant because the template would continue to be used even after my OJT ends, leaving a lasting mark on the department's digital presence. It was my first time designing a reusable template, and I felt both excited and a little pressured to create something professional and meaningful. After experimenting with different layouts, I decided on a 3D-style template that added depth and modernity. The final design exceeded my expectations, and I felt proud to contribute to the office’s ongoing communication efforts.
+                      Throughout the week, I also worked on editing video content from previous events such as the Zumbasurero clean-up drive and the mangrove planting activity. The goal was to create videos that were not only informative but also engaging enough to encourage community participation. Editing these videos allowed me to practice organizing footage, selecting impactful clips, and adding transitions and background music. It was rewarding to see our documentation transform into compelling stories that showcase ENRO’s environmental initiatives.
+                      <br><br>
+                      Week 6 OJT Weekly Journal (March 10–16, 2025) <br>
+                      This week, I focused on contributing to the enhancement of the ENRO’s social media presence. My main tasks involved editing and creating engaging content aimed at raising environmental awareness. I created posts about various flowers and developed the "Word of the Week" segment, which provided an opportunity to introduce environmental terminology to the audience. Additionally, I crafted questions related to the trivia materials we posted to encourage more interaction from the community. This process helped me develop my skills in content creation and reinforced the importance of using digital platforms to educate and engage the public in environmental issues.
+                      In collaboration with the team, we also worked on designing visually appealing content for the ENRO's Facebook page. Each post was carefully curated to ensure it communicated key messages about environmental conservation and community involvement in an impactful and accessible way. We also dedicated time to editing and scheduling the upcoming week’s social media content. This process involved proofreading, formatting, and ensuring consistency across all posts. Maintaining a cohesive online presence allowed us to strengthen the ENRO's engagement with the community and promote its environmental initiatives more effectively.
+                      Towards the end of the week, the office atmosphere was more relaxed due to preparations for the Miss Hundred Islands event. I had the opportunity to observe the rehearsal of the performers, which gave me valuable insight into how ENRO supports and collaborates with local cultural events. This experience highlighted the department's multifaceted role in both environmental and cultural engagement, underscoring the importance of fostering community spirit alongside environmental awareness.
+                      Overall, this week was a balanced mix of creative content development and cultural engagement. The hands-on experience with social media content allowed me to apply and enhance my digital communication skills, while observing the Miss Hundred Islands rehearsal broadened my understanding of ENRO's diverse community involvement. I look forward to applying these insights in future projects and continuing to contribute to the department’s mission.
+                      <br><br>
+                      Week 7 OJT Weekly Journal (March 17–22, 2025) <br>
+                      This week, I engaged in various activities that enhanced my skills in video editing and community engagement.
+                      I began by creating a video documenting the Miss Hundred Islands 2025 candidates participating in a mangrove planting activity at the Bued Mangrove Eco-Park. This event highlighted the importance of environmental conservation and the role of public figures in promoting ecological awareness.
+                      also, I edited a video for the Palit Basura Caravan held at Alaminos Central School. This program encourages residents to exchange recyclable materials for goods, promoting sustainable waste management practices.
+                      Later in the week, our team visited Barangay San Vicente to assist with another Palit Basura Caravan event. We documented the community's active participation in recycling efforts, capturing the essence of collective action towards environmental sustainability.
+                      Throughout these activities, I honed my video editing skills, learned to effectively document community events, and gained a deeper understanding of the importance of environmental initiatives.
+                      <br><br>
+                      Week 8 OJT Weekly Journal (March 23–30, 2025) <br>
+                      This week, I continued editing the video for the Palit Basura Caravan held at Alaminos Central School. This initiative encourages residents to exchange recyclable materials for goods, promoting sustainable waste management practices.
+                      Additionally, I participated in the Palit Basura Caravan at Barangay San Vicente, assisting in documenting the event. This experience allowed me to engage with the community and understand the impact of environmental programs at the grassroots level.
+                      Throughout these activities, I honed my video editing skills, ensuring that the final outputs effectively conveyed the essence of the events. Collaborating with the ENRO team and community members provided valuable insights into the importance of environmental initiatives and community involvement.
+                      This week offered a blend of technical skill enhancement and community engagement. Editing videos for the Palit Basura Caravan events allowed me to contribute to the ENRO's advocacy efforts meaningfully.
+                      Participating in the Barangay San Vicente event provided firsthand experience of community-driven environmental programs. These experiences reinforced the significance of collective action in achieving sustainability goals and deepened my appreciation for environmental work and its impact on society.
+                      <br><br>
+                      Week 9 OJT Weekly Journal (March 31–April 6, 2025) <br>
+                      This week, I assisted in preparing materials for the "Basura Mo, Iuwi Mo" program, an initiative aimed at maintaining cleanliness in the Hundred Islands National Park. My tasks included arranging plastic bags designated for biodegradable and non-biodegradable waste, which are distributed to visitors to encourage proper waste segregation and disposal. This hands-on experience provided insight into the logistical efforts required to support environmental programs.
+                      Additionally, I continued editing the video documentation of the Palit Basura Caravan held at Barangay San Vicente. This program promotes sustainable waste management by allowing residents to exchange recyclable materials for essential goods. Through video editing, I aimed to highlight the community's active participation and the program's positive impact on environmental awareness. This task enhanced my technical skills and deepened my understanding of how multimedia can be utilized to advocate for environmental initiatives.
+                      This week's activities allowed me to engage directly with environmental programs and contribute to their promotion through multimedia. Preparing materials for the "Basura Mo, Iuwi Mo" program emphasized the importance of proper waste management practices, while editing the Palit Basura Caravan video reinforced the role of community involvement in environmental conservation. These experiences have broadened my perspective on environmental initiatives and underscored the significance of effective communication in promoting sustainability.
+                      <br><br>
+                      Week 10 OJT Weekly Journal (April 17–14, 2025) <br>
+                      This week, I dedicated my time to editing materials for upcoming events that will be featured on ENRO’s social media platforms. With April being a significant month for both religious observances and seasonal safety campaigns, I focused on two key projects: the Holy Week reflections and a wildfire awareness campaign.
+                      For the Holy Week content, I carefully revised written pieces to ensure that they were respectful, informative, and spiritually engaging. I worked on daily reflection posts, incorporating appropriate scripture references and ensuring a consistent tone across the week’s messaging. The goal was to offer followers a meaningful and contemplative experience while maintaining clarity and emotional resonance in the content.
+                      In parallel, I edited educational materials for the wildfire awareness campaign. As the dry season approaches, it’s crucial to remind the public of the dangers of wildfires and how to prevent them. I revised infographics and captions, checking for factual accuracy, visual appeal, and accessibility. I also helped refine the call-to-action statements to encourage proactive community engagement.
+                      Overall, the week was productive and fulfilling. I’m proud to contribute to initiatives that both uplift our community’s faith and promote public safety. These posts will be shared later this April to help inform and inspire our audience.
+                      <br><br>
+                      Week 11 OJT Weekly Journal (April 15–22, 2025) <br>
+                      This week, I focused on refining and improving the materials I previously worked on for the upcoming Holy Week and wildfire awareness posts. After reviewing the initial drafts, I noticed a few areas that needed polishing—particularly in terms of layout, clarity, and overall visual appeal. I revised these elements to ensure the content was more understandable and engaging for the audience. This included rewording some of the captions, enhancing the graphics, and improving the overall flow of the posts. The goal was to deliver clear and visually compelling messages that effectively convey their intended purpose.
+                      In addition to editing, I was assigned a new task during a meeting at the ENRO (Environment and Natural Resources Office). I was asked to document an event they organized. As part of this responsibility, I took photos and recorded videos throughout the program to capture key moments and highlights. This documentation will be used for both internal reports and future promotional materials. It was a valuable experience that helped me further develop my skills in media coverage and content creation.
+                      Overall, this week was a mix of creative revision and hands-on fieldwork, both of which contributed meaningfully to my ongoing learning and development.
+                      <br><br>
+                      Week 12 OJT Weekly Journal (April 23–30, 2025) <br>
+                      This week marked the final stretch of our on-the-job training (OJT), and it was a bittersweet experience. One of the highlights was our participation in the Zumbasurero and clean-up drive held at Barangay Polo. It was a fulfilling activity where we combined physical wellness with environmental advocacy. The event encouraged community involvement through a fun Zumba session followed by a collective effort to clean the surroundings. It felt rewarding to be part of such an initiative, knowing we were making a positive impact while engaging with local residents.
+                      At the same time, there was a sense of sadness knowing it would be our last opportunity to join such events under this program. These experiences have not only enriched my skills but also built a deeper appreciation for public service and community involvement.
+                      Aside from the field activity, I also spent time assisting some of the staff with their day-to-day tasks. Whether it was organizing documents, helping with communications, or offering support in small ways, I appreciated being able to contribute and learn from their workflow.
+                      As our OJT ends, I feel proud of the work we’ve accomplished and grateful for the lessons and memories gained throughout the journey. summarize and make it blog not code related just a sentence.</p>
+                    <button class="see-more-btn flip-btn">Click Again to Start Rotating</button>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+
+
+    <Section class="education" id="education">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Education
+          </h1>
+    
+          <div class="education-box">
+            <div data-aos="zoom-in-down" class="education-card">
+              <div class="card-image">
+                <img src="image/sti_logo.png" alt="STI alaminos" />
+              </div>
+              <div class="card-content">
+                <h1>STI alaminos</h1>
+                <p>Tertiary Graduate</p>
+                <p>2023 - 2025</p>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" class="education-card">
+              <div class="card-image">
+                <img src="image/acnhs.jpg" alt="ACNHS" />
+              </div>
+              <div class="card-content">
+                <h1>Alaminos City National Highschool</h1>
+                <p>Junior-Senior High School</p>
+                <p>2017 - 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Section>
+
+<!-- Project Section -->
+<section id="project" class="project">
+  <div class="container">
+    <div class="content">
+      <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+        Project
+      </h1>
+
+      <div class="projects"data-aos="fade-up" data-aos-delay="500">
+        
+      </div>
+    </div>
+  </div>
+
+    
+    <!-- Modal for Project Details -->
+    <div id="project-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modal-body">
+          <!-- Project details will be dynamically inserted here -->
+        </div>
+      </div>
+    </div>
+  </section>
+    
+    <section class="contact" id="contact">
+      <div class="title"><span>Contact Me</span></div>
+    
+      <div class="contact-container">
+        <!-- Left: Text Block -->
+        <div class="text-block"data-aos="zoom-in-down" data-aos-delay="300">
+          <h2 class="topic">Got any Projects?</h2>
+          <p>Let's work together to bring your ideas to life!</p>
+        </div>
+    
+        <!-- Right: Form Card -->
+        <div class="form-card1"data-aos="zoom-in-up" data-aos-delay="300">
+          <div class="form-card2">
+            <form class="form" action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+              <input type="hidden" name="access_key" value="30194588-5094-4fa5-b8da-2dcfbdd0c0b6">
+              <p class="form-heading">Get In Touch</p>
+              
+              <div class="form-field">
+                <input name="name" required placeholder="Name" class="input-field" type="text" />
+              </div>
+          
+              <div class="form-field">
+                <input name="email" required placeholder="Email" class="input-field" type="email" />
+              </div>
+          
+              <div class="form-field">
+                <input name="subject" required placeholder="Subject" class="input-field" type="text" />
+              </div>
+          
+              <div class="form-field">
+                <textarea name="message" required placeholder="Message" cols="30" rows="3" class="input-field"></textarea>
+              </div>
+          
+              <button class="sendMessage-btn" type="submit">Send Message</button>
+            </form>
+          
+            <!-- Success Message -->
+            <p id="successMessage" style="display: none; color: green; margin-top: 10px;">
+              Your message has been sent successfully!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div data-aos="fade-up" data-aos-duration="1000" class="container">
+        <div class="profile">
+          <div class="logo">
+            <a href="">Joseph</a>
+          </div>
+          <!-- Short About -->
+          <p>
+          </p>
+          <div class="social-media-container">
+            <div class="social-media">
+              <a href="https://www.instagram.com/_jzyp/">
+                <i class="fa-brands fa-instagram" style="color: #fff; font-size: 1.5rem;"></i>
+              </a>
+            </div>
+            <div class="social-media">
+              <a href="https://www.facebook.com/profile.php?id=100078052962186">
+                <i class="fa-brands fa-facebook" style="color: #fff; font-size: 1.5rem;"></i>
+              </a>
+            </div>
+            <div class="social-media">
+              <a href="https://www.linkedin.com/in/josephjames-alcedo-324797333/">
+                <i class="fa-brands fa-linkedin" style="color: #fff; font-size: 1.5rem;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Created by <a href="#">Sip</a> | @All rights reserved 2025</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+    <!-- Box Icon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
